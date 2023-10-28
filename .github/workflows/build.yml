@@ -1,4 +1,4 @@
-name: Build and Deploy to Docker Hub
+name: Build and Deploys to Docker Hub
 env:
   DOCKER_USER: ${{secrets.DOCKER_HUB_USER}}
   DOCKER_PASSWORD: ${{secrets.DOCKER_HUB_TOKEN}}
